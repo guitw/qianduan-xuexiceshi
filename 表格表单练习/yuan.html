@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表格表单练习</title>
+    <style>
+        .jia {
+            color: red;
+            font-size: 5;
+        }
+
+        .hong {
+            color: red;
+        }
+
+        .tupian {
+            width: 55px;
+            height: 22px;
+        }
+
+        .niming {
+            color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <table align="center">
+        <tr>
+            <td colspan="2">商品支付</td>
+        </tr>
+    </table>
+    <table bgcolor="mistyrose" align="center">
+        <tr>
+            <td>商品数量:</td>
+            <td></td>
+            <td colspan="2">1</td>
+        </tr>
+        <tr>
+            <td>合计:</td>
+            <td></td>
+            <td colspan="2" class="jia">&yen;200</td>
+        </tr>
+        <tr>
+            <td>运费险:</td>
+            <td></td>
+            <td colspan="2"><input type="radio" name="xinbei">购买<input type="radio" name="xinbei" checked>不需要</td>
+        </tr>
+        <tr>
+            <td><a class="hong">*</a>验证码</td>
+            <td></td>
+            <td><input type="text"></td>
+            <td><img src="../img/yzm.png" class="tupian"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td align="center" class="niming"><input type="checkbox">匿名购买</td>
+        </tr>
+        <tr>
+            <td>支付方式：</td>
+            <td></td>
+            <td colspan="2"><input type="radio" name="goumai">支付宝<input type="radio" name="goumai">微信<input type="radio"
+                    name="goumai">云闪付</td>
+        </tr>
+        <tr>
+            <td>订单备注：</td>
+            <td></td>
+            <td><textarea rows="2" cols="20"></textarea></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="button" value="支付"></td>
+            <td><a href="shouhuo.html">添加地址</a></td>
+        </tr>
+    </table>
+</body>
+
+</html>
